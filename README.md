@@ -12,7 +12,7 @@ to install the package, navigate to the file directory and run:
 pip install .
 ```
 ## Usage
-Assign the variables X and Y to the desires columns.
+Assign the variables X and Y to the desired columns and assign the variable size to the desired test_size.
 ## Note: Encoding has to be done on your own.
 Check test.py to see the use case.
 ```python
