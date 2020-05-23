@@ -1,0 +1,5 @@
+pip install pandas
+pip install numpy
+pip install setuptools
+pip install scipy
+pip install -U scikit-learn
