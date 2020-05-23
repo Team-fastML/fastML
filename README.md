@@ -1,5 +1,10 @@
 # fastML
 A Python package built on sklearn for running a series of classification Algorithms on a given data in a faster and easier way.
+# Algorithms
+## Support Vector Machine
+## Decision Tree Classifier
+## Random Forest Classifier
+## K-Nearest Neighbors
 
 # Getting started
 fork and clone this repo on your local machine and set-up your virtualenv by running the command 
