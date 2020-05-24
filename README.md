@@ -9,7 +9,7 @@ A Python package built on sklearn for running a series of classification Algorit
 # Getting started
 fork and clone this repo on your local machine and set-up your virtualenv by running the command 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 # Installing the package
 to install the package, navigate to the file directory and run:
