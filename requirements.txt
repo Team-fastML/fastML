@@ -1,5 +1,7 @@
-pip install pandas
-pip install numpy
-pip install setuptools
-pip install scipy
-pip install -U scikit-learn
+joblib==0.15.1
+numpy==1.18.4
+pandas==1.0.3
+pytz==2020.1
+scikit-learn==0.23.1
+scipy==1.4.1
+threadpoolctl==2.0.0
