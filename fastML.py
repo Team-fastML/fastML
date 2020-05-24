@@ -1,13 +1,14 @@
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn import utils
+import pandas as pd
+
 
 def fastML(X, Y, size):
-    from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
-    from sklearn.model_selection import train_test_split
-    from sklearn.ensemble import RandomForestClassifier
-    from sklearn.tree import DecisionTreeClassifier
-    from sklearn.neighbors import KNeighborsClassifier
-    from sklearn.svm import SVC
-    from sklearn import utils
-    import pandas as pd
 
     SVC = SVC()
     KNN = KNeighborsClassifier()
