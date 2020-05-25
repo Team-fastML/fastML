@@ -18,7 +18,10 @@ pip install .
 ```
 ## Usage
 Assign the variables X and Y to the desired columns and assign the variable size to the desired test_size.
-## Note: Encoding has to be done on your own.
+## Ecoding Categorical Data 
+```python 
+from fastML import EncodeCategorical
+Y = EncodeCategorical(Y)
 Check test.py to see the use case.
 ```python
 from fastML import fastML
