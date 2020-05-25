@@ -61,3 +61,8 @@ def fastML(X, Y, size):
                                                                                           SVC_accuracy], ['Random Forest', RF_accuracy]]
     df = pd.DataFrame(acc_score, columns=['Model', 'Accuracy'])
     print(df)
+
+def EncodeCategorical(Y):
+    from sklearn.preprocessing import LabelEncoder
+    le = LabelEncoder()
+    return le.fit_transform(Y)
