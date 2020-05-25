@@ -4,27 +4,26 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
-from sklearn import utils
 import pandas as pd
 
 
 def fastML(X, Y, size):
 
-    SVC = SVC()
+    svc = SVC()
     KNN = KNeighborsClassifier()
     DTC = DecisionTreeClassifier()
     RF = RandomForestClassifier()
 
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size)
 
-    SVC.fit(X_train, y_train)
+    svc.fit(X_train, y_train)
     KNN.fit(X_train, y_train)
     DTC.fit(X_train, y_train)
     RF.fit(X_train, y_train)
 
     DTC_prediction = DTC.predict(X_test)
     KNN_prediction = (KNN.predict(X_test))
-    SVC_prediction = SVC.predict(X_test)
+    SVC_prediction = svc.predict(X_test)
     RF_prediction = RF.predict(X_test)
     print(
         "Accuracy score for Decision tree Classifier is " + str(accuracy_score(y_test, DTC_prediction)))
