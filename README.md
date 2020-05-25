@@ -22,6 +22,8 @@ Assign the variables X and Y to the desired columns and assign the variable size
 ```python 
 from fastML import EncodeCategorical
 Y = EncodeCategorical(Y)
+```
+
 Check test.py to see the use case.
 ```python
 from fastML import fastML
