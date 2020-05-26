@@ -3,6 +3,7 @@
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
 import pandas as pd
+import numpy
 ##creating a function to handle classification algorithms
 
 
@@ -18,14 +19,19 @@ def fastML(X, Y, size, *args): #defining arguments to be passed in function
                                  
                                  
 ''')
+    ## dropping rows containing missing values
+    X = pd.DataFrame(X)
+    X.dropna(inplace= True)
+    Y = pd.DataFrame(Y)
+    Y.dropna(inplace=True)
 
     ##splitting the data into training and testing data and setting the test_size
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size)
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size)   
 
     ##training the model with train data
     acc_score = []
     for alg in args:
-        alg.fit(X_train, y_train)
+        alg.fit(X_train, y_train.values.ravel())
         prediction = alg.predict(X_test)
 
         ##outputing statistics on the performance of the individual models
