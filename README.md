@@ -27,7 +27,7 @@ Y = EncodeCategorical(Y)
 Check test.py to see the use case.
 ```python
 from fastML import fastML
-size = float(input('Enter Value for test_size:'))
+size = <test_size goes here>
 fastML(X, Y, size, RandonForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())
 ```
 ## Contributing
