@@ -36,32 +36,36 @@ def fastML(X, Y, size): #defining arguments to be passed in function
     ##outputing statistics on the performance of all individual model
     ##the statistics to be printed are the accuracy score, confusion matrix and classification report
     print(
-        "Accuracy score for Decision tree Classifier is " + str(accuracy_score(y_test, DTC_prediction)))
+        "-"*50 + "\nDesicion Tree Classifier\n" + "-"*50 +
+        "\nAccuracy score for Decision tree Classifier is " + str(accuracy_score(y_test, DTC_prediction)))
     print(
-        "Confusion Matrix for Decision tree Classifier is " + str(confusion_matrix(y_test, DTC_prediction)))
+        "\nConfusion Matrix for Decision tree Classifier is \n" + str(confusion_matrix(y_test, DTC_prediction)))
     print(
-        "Classification Report for Decision tree Classifier is " + str(classification_report(y_test, DTC_prediction)))
+        "Classification Report for Decision tree Classifier is \n" + str(classification_report(y_test, DTC_prediction)))
 
     print(
-        "Accuracy score for K-Nearest Neighbors is " + str(accuracy_score(y_test, KNN_prediction)))
+        "-"*50 + "\nK-Nearest Neighbors Classifier\n" + "-"*50 +
+        "\nAccuracy score for K-Nearest Neighbors is " + str(accuracy_score(y_test, KNN_prediction)))
     print(
-        "Confusion Matrix for K-Nearest Neighbors is " + str(confusion_matrix(y_test, KNN_prediction)))
+        "\nConfusion Matrix for K-Nearest Neighbors is \n" + str(confusion_matrix(y_test, KNN_prediction)))
     print(
-        "Classification Report for K-Nearest Neighbors is " + str(classification_report(y_test, KNN_prediction)))
+        "Classification Report for K-Nearest Neighbors is \n" + str(classification_report(y_test, KNN_prediction)))
 
     print(
-        "Accuracy score for Support Vector Machine is " + str(accuracy_score(y_test, SVC_prediction)))
+        "-"*50 + "\nSupport Vector Machine\n" + "-"*50 +
+        "\nAccuracy score for Support Vector Machine is " + str(accuracy_score(y_test, SVC_prediction)))
     print(
-        "Confusion Matrix for Support Vector Machine is " + str(confusion_matrix(y_test, SVC_prediction)))
+        "\nConfusion Matrix for Support Vector Machine is \n" + str(confusion_matrix(y_test, SVC_prediction)))
     print(
-        "Classification Report for Support Vector Machine is " + str(classification_report(y_test, SVC_prediction)))
+        "Classification Report for Support Vector Machine is \n" + str(classification_report(y_test, SVC_prediction)))
 
     print(
-        "Accuracy score for Random Forest Classifier is " + str(accuracy_score(y_test, RF_prediction)))
+        "-"*50 + "\nRandom Forest Classifier\n" + "-"*50 +
+        "\nAccuracy score for Random Forest Classifier is " + str(accuracy_score(y_test, RF_prediction)))
     print(
-        "Confusion Matrix for Random Forest Classifier " + str(confusion_matrix(y_test, RF_prediction)))
+        "\nConfusion Matrix for Random Forest Classifier \n" + str(confusion_matrix(y_test, RF_prediction)))
     print(
-        "Classification Report for Random Forest Classifier is " + str(classification_report(y_test, RF_prediction)))
+        "Classification Report for Random Forest Classifier is \n" + str(classification_report(y_test, RF_prediction)))
 
     ##saving the accuracy scores of individual models as variables
     DTC_accuracy = str(accuracy_score(y_test, DTC_prediction))
@@ -75,7 +79,8 @@ def fastML(X, Y, size): #defining arguments to be passed in function
     
     ##creating a dataframe of every individual model and accuracy score 
     df = pd.DataFrame(acc_score, columns=['Model', 'Accuracy'])
-    ##outputing the created dataframe 
+    ##outputing the created dataframe
+    print("-"*45 + "\nClassifier-Accuracy DataFrame\n" + "-"*45)
     print(df)
 
 ##creating another function for handling the categorial encoding of data 
