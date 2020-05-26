@@ -3,6 +3,10 @@ from fastML import fastML
 from fastML import EncodeCategorical
 import pandas as pd
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
 
 ##reading the Iris dataset into the code
 df = pd.read_csv('Iris.csv')
@@ -16,4 +20,4 @@ Y = df['Species'].values
 Y = EncodeCategorical(Y)
 
 ## running the fastML function from fastML to run multiple classification algorithms on the given data
-fastML(X, Y, size=.30)
+fastML(X, Y, .30, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())
