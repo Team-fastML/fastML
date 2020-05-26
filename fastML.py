@@ -2,9 +2,7 @@
 
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.model_selection import train_test_split
-
 import pandas as pd
-import time
 ##creating a function to handle classification algorithms
 
 def fastML(X, Y, size, *args): #defining arguments to be passed in function
