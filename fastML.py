@@ -26,7 +26,7 @@ def fastML(X, Y, size, *args): #defining arguments to be passed in function
     Y.dropna(inplace=True)
 
     ##splitting the data into training and testing data and setting the test_size
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size)   
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size, random_state = 0)   
 
     ##training the model with train data
     acc_score = []
