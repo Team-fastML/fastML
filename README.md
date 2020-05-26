@@ -27,8 +27,8 @@ Y = EncodeCategorical(Y)
 Check test.py to see the use case.
 ```python
 from fastML import fastML
-
-fastML(X, Y, size)
+size = .30
+fastML(X, Y, size, RandonForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())
 ```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
