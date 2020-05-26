@@ -18,6 +18,6 @@ Y = df['Species'].values
 
 ##running the EncodeCategorical function from fastML to handle the process of categorial encoding of data
 Y = EncodeCategorical(Y)
-
+size = float(input('Enter Value for test_size:'))
 ## running the fastML function from fastML to run multiple classification algorithms on the given data
-fastML(X, Y, .30, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())
+fastML(X, Y, size, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())

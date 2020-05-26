@@ -5,7 +5,19 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 ##creating a function to handle classification algorithms
 
+
 def fastML(X, Y, size, *args): #defining arguments to be passed in function
+    print('''
+    
+   __          _   __  __ _      
+  / _|        | | |  \/  | |     
+ | |_ __ _ ___| |_| \  / | |     
+ |  _/ _` / __| __| |\/| | |     
+ | || (_| \__ \ |_| |  | | |____ 
+ |_| \__,_|___/\__|_|  |_|______|
+                                 
+                                 
+''')
 
     ##splitting the data into training and testing data and setting the test_size
     X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=size)
