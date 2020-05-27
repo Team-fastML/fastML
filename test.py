@@ -6,6 +6,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 
 ##reading the Iris dataset into the code
@@ -18,6 +19,6 @@ Y = df['Species'].values
 
 ##running the EncodeCategorical function from fastML to handle the process of categorial encoding of data
 Y = EncodeCategorical(Y)
-size = 0.30
+size = 0.35
 ## running the fastML function from fastML to run multiple classification algorithms on the given data
-fastML(X, Y, size, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC())
+fastML(X, Y, size, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC(), LogisticRegression(max_iter = 7000))
