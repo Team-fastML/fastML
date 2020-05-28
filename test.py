@@ -8,7 +8,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-#from specialClassificationModel import neuralnet
+from specialClassificationModel import neuralnet
 
 
 
@@ -24,5 +24,5 @@ Y = df['Species'].values
 Y = EncodeCategorical(Y)
 size = 0.35
 ## running the fastML function from fastML to run multiple classification algorithms on the given data
-fastML(X, Y, size, RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC(),
-        include_special_classifier = True,special_classifier_epochs=200,special_classifier_nature='fixed',special_classifier_verbose=0)
+fastML(X, Y, size, SVC(), RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), LogisticRegression(max_iter = 7000), special_classifier_epochs=200,special_classifier_nature ='fixed',
+          include_special_classifier = True,)
