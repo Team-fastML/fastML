@@ -198,13 +198,6 @@ weighted avg       0.98      0.98      0.98        53
 ____________________________________________________
 ____________________________________________________
 Included special classifier with fixed nature
-2020-05-28 15:25:28.257871: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
-2020-05-28 15:25:28.257902: E tensorflow/stream_executor/cuda/cuda_driver.cc:313] failed call to cuInit: UNKNOWN ERROR (303)
-2020-05-28 15:25:28.257959: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lyrax): /proc/driver/nvidia/version does not exist
-2020-05-28 15:25:28.258194: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2020-05-28 15:25:28.284576: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 2400000000 Hz
-2020-05-28 15:25:28.285480: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fe8b4000b60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
-2020-05-28 15:25:28.285557: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -266,5 +259,5 @@ ____________________________________________________
 ```
 ## Author: [Jerry Buaba](linkedin.com/in/jerry-buaba-768351172)
 ## Acknowledgements
-Thanks to [Vincent Njonge](linkedin.com/in/vincent-njonge-528070178), [Philemon Johnson](linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Emmanuel Amouku](linkedin.com/in/emmanuel-amoaku) for making this project a success.
+Thanks to [Vincent Njonge](linkedin.com/in/vincent-njonge-528070178), [Emmanuel Amouku](linkedin.com/in/emmanuel-amoaku), [Philemon Johnson](linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Gal Giacomelli](linkedin.com/in/gal-giacomelli-221679136) for making this project a success.
 
