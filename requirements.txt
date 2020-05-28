@@ -5,3 +5,5 @@ pytz==2020.1
 scikit-learn==0.23.1
 scipy==1.4.1
 threadpoolctl==2.0.0
+tensorflow
+keras
