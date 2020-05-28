@@ -17,11 +17,10 @@ A Python package built on sklearn for running a series of classification Algorit
 -----------------
 
 ## Install the package
-to install the package, navigate to the file directory and run:
 ```bash
 pip install fastML
 ```
-Navigate to folder and install requirements:
+Navigate to folder and install requirements: 
 ```bash
 pip install -r requirements.txt
 ```
@@ -257,7 +256,7 @@ ____________________________________________________
 5               neuralnet  0.8969072103500366
 
 ```
-## Author: [Jerry Buaba](linkedin.com/in/jerry-buaba-768351172)
+## Author: [Jerry Buaba](https://linkedin.com/in/jerry-buaba-768351172)
 ## Acknowledgements
-Thanks to [Vincent Njonge](linkedin.com/in/vincent-njonge-528070178), [Emmanuel Amouku](linkedin.com/in/emmanuel-amoaku), [Divine Alorvor](https://www.linkedin.com/in/divine-kofi-alorvor-86775117b), [Philemon Johnson](linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Gal Giacomelli](linkedin.com/in/gal-giacomelli-221679136) for making this project a success.
+Thanks to [Vincent Njonge](https://linkedin.com/in/vincent-njonge-528070178), [Emmanuel Amoaku](https://linkedin.com/in/emmanuel-amoaku), [Philemon Johnson](https://linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](https://linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](https://linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](https://linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Gal Giacomelli](https://linkedin.com/in/gal-giacomelli-221679136) for making this project a success.
 
