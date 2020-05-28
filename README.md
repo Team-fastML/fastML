@@ -259,5 +259,5 @@ ____________________________________________________
 ```
 ## Author: [Jerry Buaba](linkedin.com/in/jerry-buaba-768351172)
 ## Acknowledgements
-Thanks to [Vincent Njonge](linkedin.com/in/vincent-njonge-528070178), [Emmanuel Amouku](linkedin.com/in/emmanuel-amoaku), [Philemon Johnson](linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Gal Giacomelli](linkedin.com/in/gal-giacomelli-221679136) for making this project a success.
+Thanks to [Vincent Njonge](linkedin.com/in/vincent-njonge-528070178), [Emmanuel Amouku](linkedin.com/in/emmanuel-amoaku), [Divine Alorvor](https://www.linkedin.com/in/divine-kofi-alorvor-86775117b), [Philemon Johnson](linkedin.com/in/philemon-johnson-b95009171), [William Akuffo](linkedin.com/in/william-akuffo-26b430159), [Labaran Mohammed](linkedin.com/in/adam-labaran-111358181), [Benjamin Acquaah](linkedin.com/in/benjamin-acquaah-9294aa14b), [Silas Bempong](https://www.linkedin.com/in/silas-bempong-604916120) and [Gal Giacomelli](linkedin.com/in/gal-giacomelli-221679136) for making this project a success.
 
