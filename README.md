@@ -37,6 +37,10 @@ Encode target variable if non-numerical:
 from fastML import EncodeCategorical
 Y = EncodeCategorical(Y)
 ```
+## Using the Neural Net Classifier
+```
+from nnclassifier import neuralnet
+```
 ## Running fastML
 ```python
 fastML(X, Y, size, RandonForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), SVC(),
