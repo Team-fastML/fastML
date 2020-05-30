@@ -31,7 +31,7 @@ X = < df.features >
 Y = < df.target >
 size = < test_size >
 ```
-## Ecoding Categorical Data 
+## Encoding Categorical Data 
 Encode target variable if non-numerical:
 ```python
 from fastML import EncodeCategorical
