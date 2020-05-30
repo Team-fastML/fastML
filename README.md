@@ -1,7 +1,7 @@
 # fastML
 
 --------
-A Python package built on sklearn for running a series of classification Algorithms on a given data in a faster and easier way.
+A Python package built with sklearn for running multiple classification algorithms in as little as 4 lines. This package drastically makes the work of Data Scientists, AI and ML engineers very easy and fast by saving them the physical stress of writing close to 200 lines of code as they would if not for this package.
 # Algorithms
 
 ------------
