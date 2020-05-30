@@ -24,6 +24,7 @@ Y = df.target
 ##running the EncodeCategorical function from fastML to handle the process of categorial encoding of data
 Y = EncodeCategorical(Y)
 size = 0.33
+
 ## running the fastML function from fastML to run multiple classification algorithms on the given data
 fastML(X, Y, size, SVC(), RandomForestClassifier(), DecisionTreeClassifier(), KNeighborsClassifier(), LogisticRegression(max_iter = 7000), special_classifier_epochs=200,special_classifier_nature ='fixed',
           include_special_classifier = True,)
