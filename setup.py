@@ -12,7 +12,7 @@ setup(
   author = 'Jerry Buaba',                   # Type in your name
   author_email = 'buabajerry@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/buabaj',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Team-fastML/fastML/archive/v0.1.tar.gz',    # I explain this later on
   keywords = ['Machine Learning', 'Algorithms', 'Classification', 'Neural Net'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'scikit-learn',
