@@ -12,7 +12,7 @@ Keywords: Machine Learning,Algorithms,Classification,Neural Net
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
-Classifier: Topic :: Machine Learning
+Classifier: Topic ::Software Development :: Build Tools
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.4
