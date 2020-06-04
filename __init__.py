@@ -1,2 +1,2 @@
 from fastML import fastML
-from specialClassificationModel import neuralnet
+from fastML.nnclassifier import neuralnet
