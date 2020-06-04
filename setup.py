@@ -27,7 +27,7 @@ setup(
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-    'Intended Audience :: AI / ML Engineers',      # Define that your audience are developers
+    'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Machine Learning',
     'License :: OSI Approved :: MIT License',   # Again, pick a license
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
