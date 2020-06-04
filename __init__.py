@@ -1,2 +1,2 @@
-from fastML import fastML
-from fastML.nnclassifier import neuralnet
+from fML import fastML
+from fML.nnclassifier import neuralnet
