@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+fML/fastML.py
+fML/nnclassifier.py
+fML/test.py
+fML.egg-info/PKG-INFO
+fML.egg-info/SOURCES.txt
+fML.egg-info/dependency_links.txt
+fML.egg-info/requires.txt
+fML.egg-info/top_level.txt
