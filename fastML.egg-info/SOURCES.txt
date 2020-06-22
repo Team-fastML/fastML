@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+fastML/__init__.py
+fastML/fastML.py
+fastML/nnclassifier.py
+fastML/setup.py
+fastML/test.py
+fastML.egg-info/PKG-INFO
+fastML.egg-info/SOURCES.txt
+fastML.egg-info/dependency_links.txt
+fastML.egg-info/requires.txt
+fastML.egg-info/top_level.txt
