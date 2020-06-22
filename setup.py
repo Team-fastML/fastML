@@ -4,11 +4,11 @@ from setuptools import setup, find_packages
 
 from distutils.core import setup
 setup(
-  name = 'fML',         # How you named your package folder (MyLib)
-  packages = ['fML'],   # Chose the same as "name"
+  name = 'fastML',         # How you named your package folder (MyLib)
+  packages = ['fastML'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'A Python package built with sklearn for running multiple classification algorithms in as little as 4 lines. This package drastically makes the work of Data Scientists, AI and ML engineers very easy and fast by saving them the physical stress of writing close to 200 lines of code as they would if not for this package.',   # Give a short description about your library
+  description = 'A Python package built with sklearn for running multiple classification algorithms to observe their behaviour in as little as 4 lines. This package drastically makes the work of Data Scientists, AI and ML engineers very easy and fast by saving them the physical stress of writing close to 300 lines of code as they would if not for this package.',   # Give a short description about your library
   author = 'Jerry Buaba',                   # Type in your name
   author_email = 'buabajerry@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/buabaj',   # Provide either the link to your github or to your website
