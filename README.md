@@ -1,4 +1,4 @@
-# fastML
+# fastML [![Downloads](https://static.pepy.tech/personalized-badge/fastml?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads)](https://pepy.tech/project/fastml)
 
 --------
 A Python package built with sklearn for running multiple classification algorithms in as little as 4 lines. This package drastically makes the work of Data Scientists, AI and ML engineers very easy and fast by saving them the physical stress of writing close to 200 lines of code as they would if not for this package.
